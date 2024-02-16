@@ -10,7 +10,7 @@ const WebIcon = () => {
       className="block md:hidden cursor-pointer" 
       src="/images/icon.png" 
        
-      width="150" 
+      height="50" 
       alt="Logo" 
         />
     </div> );
