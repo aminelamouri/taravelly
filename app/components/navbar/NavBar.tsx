@@ -34,8 +34,8 @@ const NavBar: React.FC<NavBarProps> = ({
             md:gap-0
           "
                     >
-                        <Logo className="hidden lg:block" />
-                        <WebIcon className="block lg:hidden" />
+                        <Logo  />
+                        <WebIcon />
                         <Search />
                         <UserMenu currentUser={currentUser} />
                     </div>
