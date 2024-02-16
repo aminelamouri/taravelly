@@ -7,7 +7,7 @@ const WebIcon = () => {
     <div>
         <Image
       onClick={() => router.push('/')}
-      className="hidden md:block cursor-pointer" 
+      className="block md:hidden cursor-pointer" 
       src="/images/icon.png" 
        
       width="150" 
