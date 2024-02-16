@@ -2,6 +2,7 @@
 import Container from "../Container";
 import Categories from "./Categories";
 import Logo from "./Logo";
+import WebIcon from "./WebIcon";
 import Search from "./Search";
 import UserMenu from "./UserMenu";
 import { SafeUser } from "@/app/types";
@@ -33,7 +34,8 @@ const NavBar: React.FC<NavBarProps> = ({
             md:gap-0
           "
                     >
-                        <Logo />
+                        <Logo className="hidden lg:block" />
+                        <WebIcon className="block lg:hidden" />
                         <Search />
                         <UserMenu currentUser={currentUser} />
                     </div>
